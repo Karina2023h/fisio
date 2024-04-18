@@ -9,7 +9,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="icon" href="./img/Butterfly.png" type="image/x-icon">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <style>
+    /* Додаткові стилі для плавної прокрутки */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 
 <body>
@@ -22,12 +28,13 @@
       </div>
       <div class="block">
         <ul class="all-block">
-          <li class="nome">Cесії</li>
-          <li class="nome">Контакти</li>
-          <li class="nome">Відгуки</li>
-          <li class="nome"> Про мене</li>
+          <a class="nome" href="#sesii">Сеанси</a>
+          <a class="nome" href="#me">Контакти</a>
+          <a class="nome" href="#vidg">Відгуки</a>
+          <a class="nome" href="#about-me">Про мене</a>
+          >
         </ul>
-        <button class="btn-logo">Зв'яжіться зі мною</button>
+        <button class="btn-logo" onclick="callNumber()">Зв'яжіться зі мною</button>
       </div>
     </div>
 
@@ -35,13 +42,13 @@
       <h1 class="hero-text">Лікар-фізіотерапевт і масажист Віктор Лазарєв</h1>
     </div>
     <div class="too-block">
-      <div class="zero-block">
+      <div class="zero-block" data-aos="fade-right" data-aos-duration="2000">
         <img class="skoba" src="./img/foto2.png" alt="foto">
         <p class="too-text">Я допомагаю молодим людям із проблемами спини, спричиненими тривалим перебуванням перед
           комп’ютером або травмами</p>
         <button class="btn-scoba">Переглянути програми масажу</button>
       </div>
-      <div class="one-block">
+      <div class="one-block" data-aos="fade-left" data-aos-duration="2000">
         <img class="foto-block" src="./img/foto1.png" alt="foto">
       </div>
     </div>
@@ -73,34 +80,37 @@
       <div class="moll">
         <img class="foto-crop larde" src="./img/foto3.png" alt="foto">
       </div>
-      <div class="one-corb10">
-        <img class="logo-sect" src="./img/Butterfly.png" alt="foto">
-        <h3 class="text-corb">Підвищення імунітету за допомогою догляду за спиною</h3>
-        <p class="prg-corb">Масаж спини безпосередньо впливає на імунну систему. Техніка мого масажу не тільки
-          допомагає зняти біль і напругу, але й
-          зміцнити вашу імунну систему. Регулярні сеанси масажу можуть допомогти організму ефективніше боротися зі
-          стресом і
-          хворобами</p>
+      <div class="small-imagesi">
+        <div class="one-corb10">
+          <img class="logo-sect" src="./img/Butterfly.png" alt="foto">
+          <h3 class="text-corb">Підвищення імунітету за допомогою догляду за спиною</h3>
+          <p class="prg-corb">Масаж спини безпосередньо впливає на імунну систему. Техніка мого масажу не тільки
+            допомагає зняти біль і напругу, але й
+            зміцнити вашу імунну систему. Регулярні сеанси масажу можуть допомогти організму ефективніше боротися зі
+            стресом і
+            хворобами</p>
+        </div>
+
+        <div class="one-corb11">
+          <img class="logo-sect" src="./img/Butterfly.png" alt="foto">
+          <h3 class="text-corb">Біль від сидячої роботи
+            і як з ними боротися</h3>
+          <p class="prg-corb">Моя практика зосереджена на молодих дорослих, які страждають від болю в спині,
+            спричиненого тривалим перебуванням перед
+            комп’ютером або внаслідок травми. Я працюю, щоб допомогти їм одужати та знайти комфорт у повсякденному житті
+          </p>
+        </div>
       </div>
 
-      <div class="one-corb11">
-        <img class="logo-sect" src="./img/Butterfly.png" alt="foto">
-        <h3 class="text-corb">Біль від сидячої роботи
-          і як з ними боротися</h3>
-        <p class="prg-corb">Моя практика зосереджена на молодих дорослих, які страждають від болю в спині,
-          спричиненого тривалим перебуванням перед
-          комп’ютером або внаслідок травми. Я працюю, щоб допомогти їм одужати та знайти комфорт у повсякденному житті
-        </p>
-      </div>
     </div>
   </section>
   <section class="sectiontho container">
-    <h2 class="text-ceanc">Сеанси</h2>
+    <h2 id="sesii" class="text-ceanc">Сеанси</h2>
     <p class="prg-ceanc">До кожного клієнта я підходжу індивідуально, враховуючи його унікальні фізіологічні
       особливості та цілі</p>
     <div class="alles-ceanc">
       <div class="small-images">
-        <div class="block-man  small">
+        <div class="block-man  small" data-aos="fade-right" data-aos-duration="1500">
           <h3 class="glavn-cen">Aкупунктура</h3>
           <div class="parag-all">
             <p class="pgr-glav">Цей метод передбачає використання тонких голок для стимуляції певних точок на тілі, що
@@ -108,10 +118,10 @@
               спині та напругу в спині</p>
             <p class="prg-sume">34 $ <span>/ 60 хв</span></p>
             <p class="prg-sume">44 $ <span>/ 90 хв</span></p>
-            <button class="btn-sume">Записатись</button>
+            <button class="btn-sume" onclick="callNumber()">Записатись</button>
           </div>
         </div>
-        <div class="block-man  small">
+        <div class="block-man  small" data-aos="fade-right" data-aos-duration="1500">
           <h3 class="glavn-cent">Гармонія</h3>
           <div class="parag-all">
             <p class="pgr-glav">Метою цього підходу є не тільки фізичне полегшення, але й психологічне покращення,
@@ -119,15 +129,137 @@
               та комфорт.</p>
             <p class="prg-sume">44 $ <span>/ 60 хв</span></p>
             <p class="prg-sume">54 $ <span>/ 90 хв</span></p>
-            <button class="btn-sume">Записатись</button>
+            <button class="btn-sume" onclick="callNumber()">Записатись</button>
           </div>
         </div>
       </div>
-      <div>
+      <div class="block-min" data-aos="fade-left" data-aos-duration="1500">
         <img class="foto-sume large" src="./img/foto4.png" alt="foto">
+      </div>
+
+      <div class="block-min" data-aos="fade-right" data-aos-duration="1500">
+        <img class="foto-sume large" src="./img/foto6.png" alt="foto">
+      </div>
+      <div class="small-images">
+        <div class="block-man small" data-aos="fade-left" data-aos-duration="1500">
+          <h3 class="glavn-cenz">Мануальна терапія</h3>
+          <div class="parag-all">
+            <p class="pgr-glav">Професійний масаж спини може допомогти покращити кровообіг і зменшити біль. Терапія
+              також може бути корисною для
+              відновлення та вирівнювання хребта</p>
+            <p class="prg-sume">69 $ <span>/ 60 хв</span></p>
+            <p class="prg-sume">79 $ <span>/ 90 хв</span></p>
+            <button class="btn-sume" onclick="callNumber()">Записатись</button>
+          </div>
+        </div>
+        <div class="block-mans small" data-aos="fade-left" data-aos-duration="1500">
+          <h3 class="glavn-cents">Для сидячого способу життя</h3>
+          <div class="parag-all">
+            <p class="pgr-glavs">Тривале сидіння за комп’ютером може залишити сліди на вашому тілі. Програми створені
+              для
+              зняття стресу та відновлення
+              гарного самопочуття</p>
+            <p class="prg-sumes">55 $ <span>/ 60 хв</span></p>
+            <p class="prg-sumes">65 $ <span>/ 90 хв</span></p>
+            <button class="btn-sumes" onclick="callNumber()">Записатись</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 id="about-me" class="text-aboud">Про мене</h2>
+    <p class="prg-aboud">Моє покликання — допомагати людям знайти здоров’я та благополуччя за допомогою цілісного
+      підходу до фізичної
+      реабілітації та терапії</p>
+    <div class="all-abod">
+      <div class="block-abod">
+        <h3 class="text-ani">Віктор Лазарєв</h3>
+        <p class="prg-ani">Я масажист з 12-річним стажем у фізіотерапії. Це дозволяє мені успішно застосовувати передові
+          методи та методики,
+          прийняті в Європі.</p>
+        <p class="prg-ani">До кожного клієнта я підходжу індивідуально, враховуючи його унікальні фізіологічні
+          особливості та цілі.</p>
+        <p class="prg-ani">При цьому я прагну не тільки полегшити фізичні недуги, а й створити атмосферу гармонії та
+          відпочинку.</p>
+        <p class="prg-ani">Маю дві вчені ступені в цій галузі.</p>
+        <p class="prg-ani">Ключові компоненти нашого добробуту. У своїй практиці як фізіотерапевт і масажист я прагну
+          допомогти людям досягти цієї
+          гармонії. Створення індивідуальних програм відновлення та планів догляду за тілом для кожного пацієнта.</p>
+        <div class="btn-blocki">
+          <button class="button-one" onclick="callNumber()">Зв'яжіться зі мною</button>
+          <button class="button-tho">Переглянути дипломи</button>
+        </div>
+      </div>
+      <div>
+        <img class="foto-abot" src="./img/foto7.png" alt="foto">
+      </div>
+    </div>
+
+    <h2 class="me">Контакти</h2>
+    <div class="mapac">
+      <iframe class="mapa"
+        src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d10161.641813953183!2d30.518185762633284!3d50.45208099540655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x40d4ce51cc422171%3A0x3a071b3501419f36!2z0LLRg9C70LjRhtGPINCl0YDQtdGJ0LDRgtC40LosIDEwLCDQmtC40ZfQsiwg0KPQutGA0LDRl9C90LA!3m2!1d50.4517731!2d30.5259118!4m0!5e0!3m2!1suk!2sde!4v1713455036378!5m2!1suk!2sde"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <h2 id="vidg" class="mes">Відгуки</h2>
+    <div class="vid-all">
+      <div class="blok-vid" data-aos="fade-right" data-aos-duration="1500">
+        <div class="text-all">
+          <h3 class="old">Ольга Пушкіна</h3>
+          <p class="vet">4.8</p>
+        </div>
+        <p class="vrta">Ходила на масаж за рекомендацією друзів і жодного разу не пошкодувала. Він справжній
+          професіонал. Відчувається, що він
+          працює з любов’ю до своєї справи. Я звернуся до нього знову!</p>
+
+      </div>
+      <div class="blok-vid" data-aos="fade-up" data-aos-duration="1500">
+        <div class="text-all">
+          <h3 class="old">Віктор Марченко</h3>
+          <p class="vet">4.9</p>
+        </div>
+        <p class="vrta">Дуже задоволений результатом! Була на масажі, відчуття неймовірні. Відразу видно, що працює
+          професіонал з великим
+          досвідом. Обов'язково буду рекомендувати друзям!</p>
+      </div>
+      <div class="blok-vids" data-aos="fade-left" data-aos-duration="1500">
+        <div class="text-all">
+          <h3 class="olda">Артем Локтєв</h3>
+          <p class="veta">4.8</p>
+        </div>
+        <p class="vrtae">Мій досвід спілкування з Віктором був неймовірним. Після сеансу відчуваю себе новою людиною.
+          Дуже вдячний йому за
+          турботу та ретельний підхід!</p>
       </div>
     </div>
   </section>
+  <footer class="footer">
+    <div id="me" class="fod">
+      <div class="text-fod">
+        <img class="foto-logo" src="./img/Butterfly.png" alt="foto">
+        <p class="logo-pargd">Д. Лазарєв</p>
+      </div>
+      <div class="info">
+        <ul class="pase">
+          <a class="nore" href="#about-me">Про мене</a>
+          <a class="nore" href="#seans">Сеанси</a>
+          <a class="nore" href="#vidg">Відгуки</a>
+        </ul>
+      </div>
+      <div class="tell">
+        <a class="fon" href="tel:+1234567890">+38 (095) 071 4157</a>
+        <a class="fon" href="mailto:example@example.com">lazarevnfo@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>
 </body>
 
 </html>

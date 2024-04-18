@@ -1,9 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter';
   overflow-x: hidden;
   border: none;
+
 }
 
 ul {
@@ -55,6 +55,7 @@ a {
 }
 
 .parag-one {
+  font-family: 'Inter';
   font-size: 16px;
   font-weight: 500;
   line-height: 19.36px;
@@ -65,7 +66,7 @@ a {
 
 .block {
   display: flex;
-  margin-left: 140px;
+  margin-left: 55px;
 }
 
 .all-block {
@@ -74,6 +75,7 @@ a {
 }
 
 .nome {
+  font-family: 'Inter';
   font-size: 16px;
   font-weight: 400;
   line-height: 27.36px;
@@ -83,6 +85,7 @@ a {
 }
 
 .btn-logo {
+  font-family: 'Inter';
   font-size: 16px;
   font-weight: 500;
   line-height: 17.6px;
@@ -97,9 +100,16 @@ a {
   cursor: pointer;
   margin-top: 8px;
   margin-left: 130px;
+  transition: transform 0.3s;
 }
 
+.btn-logo:hover {
+  transform: scale(1.1);
+}
+
+
 .hero-text {
+  font-family: 'Inter';
   font-size: 96px;
   font-weight: 500;
   line-height: 100.8px;
@@ -129,6 +139,7 @@ a {
 }
 
 .btn-scoba {
+  font-family: 'Inter';
   font-size: 18px;
   font-weight: 500;
   line-height: 19.8px;
@@ -141,10 +152,16 @@ a {
   border-radius: 100px;
   border: none;
   cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.btn-scoba:hover {
+  transform: scale(1.1);
 }
 
 
 .too-text {
+  font-family: 'Inter';
   font-size: 24px;
   font-weight: 500;
   line-height: 28.8px;
@@ -166,9 +183,11 @@ a {
   padding-right: 30px;
   padding-bottom: 50px;
   z-index: 1;
+  position: relative;
 }
 
 .section-text {
+  font-family: 'Inter';
   font-size: 95px;
   font-weight: 600;
   line-height: 0.25px;
@@ -177,6 +196,7 @@ a {
 }
 
 .section-prg {
+  font-family: 'Inter';
   font-size: 24px;
   font-weight: 500;
   line-height: 28.8px;
@@ -193,6 +213,12 @@ a {
   padding: 30px;
   border-radius: 24px;
   border: none;
+  transition: transform 0.3s;
+}
+
+.one-corb:hover {
+  transform: scale(1.1);
+  /* Збільшуємо блок до 110% його розміру */
 }
 
 .one-corb10 {
@@ -202,6 +228,12 @@ a {
   padding: 30px;
   border-radius: 24px;
   border: none;
+  transition: transform 0.3s;
+}
+
+.one-corb10:hover {
+  transform: scale(1.1);
+  /* Збільшуємо блок до 110% його розміру */
 }
 
 .one-corb1 {
@@ -211,6 +243,12 @@ a {
   padding: 30px;
   border-radius: 24px;
   border: none;
+  transition: transform 0.3s;
+}
+
+.one-corb1:hover {
+  transform: scale(1.1);
+  /* Збільшуємо блок до 110% його розміру */
 }
 
 .one-corb11 {
@@ -220,8 +258,12 @@ a {
   padding: 30px;
   border-radius: 24px;
   border: none;
-  margin-left: 571px;
-  margin-top: -290px;
+  transition: transform 0.3s;
+}
+
+.one-corb11:hover {
+  transform: scale(1.1);
+  /* Збільшуємо блок до 110% його розміру */
 }
 
 .alles-block {
@@ -235,17 +277,19 @@ a {
 }
 
 .text-corb {
+  font-family: 'Inter';
   font-size: 40px;
   font-weight: 600;
   line-height: 40px;
   letter-spacing: -0.06em;
   text-align: left;
   color: rgba(244, 244, 244, 1);
-  margin-top: 95px;
+  margin-top: 40px;
 }
 
 
 .prg-corb {
+  font-family: 'Inter';
   font-size: 16px;
   font-weight: 400;
   line-height: 21.6px;
@@ -255,17 +299,19 @@ a {
 }
 
 .text-corb1 {
+  font-family: 'Inter';
   font-size: 40px;
   font-weight: 600;
   line-height: 40px;
   letter-spacing: -0.06em;
   text-align: left;
   color: rgba(33, 33, 33, 1);
-  margin-top: 95px;
+  margin-top: 40px;
 }
 
 
 .prg-corb1 {
+  font-family: 'Inter';
   font-size: 16px;
   font-weight: 400;
   line-height: 21.6px;
@@ -285,6 +331,13 @@ a {
   width: 540px;
   height: 650px;
   border-radius: 24px;
+  transition: transform 0.3s;
+}
+
+
+.moll:hover {
+  transform: scale(1.1);
+  /* Збільшуємо блок до 110% його розміру */
 }
 
 .sectiontho {
@@ -294,11 +347,10 @@ a {
   padding-right: 30px;
   padding-bottom: 50px;
   margin-top: -50px;
-  z-index: -1;
-  position: relative;
 }
 
 .text-ceanc {
+  font-family: 'Inter';
   font-size: 95px;
   font-weight: 600;
   line-height: 109.25px;
@@ -307,6 +359,7 @@ a {
 }
 
 .prg-ceanc {
+  font-family: 'Inter';
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
@@ -318,6 +371,7 @@ a {
 }
 
 .alles-ceanc {
+
   margin-top: 60px;
   display: flex;
   gap: 30px;
@@ -328,6 +382,12 @@ a {
 
 .small-images {
   gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.small-imagesi {
+  gap: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -360,9 +420,23 @@ a {
 
 }
 
+.block-mans {
+  width: 530px;
+  height: 290px;
+  border-radius: 24px;
+  background: rgba(242, 139, 99, 1);
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+
+}
+
+
+
 
 
 .glavn-cen {
+  font-family: 'Inter';
   font-size: 40px;
   font-weight: 600;
   line-height: 1px;
@@ -372,6 +446,7 @@ a {
 }
 
 .glavn-cent {
+  font-family: 'Inter';
   font-size: 40px;
   font-weight: 600;
   line-height: 33px;
@@ -381,7 +456,19 @@ a {
   padding-right: 46px;
 }
 
+.glavn-cents {
+  font-family: 'Inter';
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: left;
+  color: rgba(33, 33, 33, 1);
+  margin-top: 20px;
+  padding-right: 46px;
+}
+
 .pgr-glav {
+  font-family: 'Inter';
   font-size: 16px;
   font-weight: 400;
   line-height: 21.6px;
@@ -390,7 +477,18 @@ a {
   color: rgba(232, 232, 232, 1);
 }
 
+.pgr-glavs {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: rgba(33, 33, 33, 1);
+}
+
 .prg-sume {
+  font-family: 'Inter';
   font-size: 24px;
   font-weight: 500;
   line-height: 28.8px;
@@ -399,7 +497,18 @@ a {
   color: rgba(232, 232, 232, 1);
 }
 
+.prg-sumes {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: rgba(33, 33, 33, 1);
+}
+
 span {
+  font-family: 'Inter';
   font-size: 24px;
   font-weight: 500;
   line-height: 28.8px;
@@ -409,6 +518,7 @@ span {
 }
 
 .btn-sume {
+  font-family: 'Inter';
   font-size: 20px;
   font-weight: 500;
   line-height: 23px;
@@ -421,6 +531,32 @@ span {
   border-radius: 100px;
   border: none;
   cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.btn-sume:hover {
+  transform: scale(1.1);
+}
+
+.btn-sumes {
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: rgba(242, 139, 99, 1);
+  width: 270px;
+  height: 50px;
+  background: rgba(41, 41, 41, 1);
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.btn-sumes:hover {
+  transform: scale(1.1);
 }
 
 .small {
@@ -431,4 +567,334 @@ span {
 .large {
   grid-column: span 2;
   /* Велика картинка займає обидва стовпці */
+}
+
+
+.glavn-cenz {
+  font-family: 'Inter';
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: rgba(232, 232, 232, 1);
+  margin-top: 18px;
+}
+
+
+.block-man {
+  opacity: 0;
+  /* Початкова прозорість блоків */
+  transition: opacity 0.8s;
+  /* Плавне зміна прозорості */
+}
+
+.block-mans {
+  opacity: 0;
+
+}
+
+.block-min {
+  opacity: 0;
+
+}
+
+.visible {
+  opacity: 1;
+
+}
+
+.zero-block {
+  opacity: 0;
+
+}
+
+.one-block {
+  opacity: 0;
+
+}
+
+/*  */
+
+.text-aboud {
+  font-family: 'Inter';
+  font-size: 95px;
+  font-weight: 600;
+  line-height: 10.25px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: rgba(232, 232, 232, 1);
+  padding-top: 60px;
+}
+
+.prg-aboud {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: rgba(232, 232, 232, 1);
+  width: 70%;
+  margin: auto;
+}
+
+.all-abod {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.block-abod {
+  width: 500px;
+  height: 480px;
+  background: rgba(41, 41, 41, 1);
+  border-radius: 24px;
+  border: none;
+  padding: 25px;
+}
+
+.foto-abot {
+  width: 550px;
+  height: 530px;
+  border-radius: 24px;
+  border: none;
+}
+
+.text-ani {
+  font-family: 'Inter';
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 5px;
+  text-align: left;
+  color: rgba(232, 232, 232, 1);
+}
+
+.prg-ani {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: rgba(232, 232, 232, 1);
+}
+
+.btn-blocki {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-top: 25px;
+}
+
+.button-one {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: rgba(33, 33, 33, 1);
+
+  width: 180px;
+  height: 55px;
+  border-radius: 100px;
+  border: none;
+  background: rgba(242, 139, 99, 1);
+  cursor: pointer;
+}
+
+.button-tho {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: rgba(242, 139, 99, 1);
+  border: 1px solid rgba(242, 139, 99, 1);
+  background: rgba(41, 41, 41, 1);
+  width: 180px;
+  height: 55px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.me {
+  font-family: 'Inter';
+  font-size: 95px;
+  font-weight: 600;
+  line-height: 109.25px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: rgba(232, 232, 232, 1);
+  padding-top: 90px;
+}
+
+.mes {
+  font-family: 'Inter';
+  font-size: 95px;
+  font-weight: 600;
+  line-height: 109.25px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: rgba(232, 232, 232, 1);
+  padding-top: 40px;
+}
+
+.mapac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapa {
+  width: 1000px;
+  height: 500px;
+  border-radius: 5px;
+  border: none;
+}
+
+.blok-vid {
+  width: 300px;
+  height: 200px;
+  background: rgba(41, 41, 41, 1);
+  border-radius: 24px;
+  border: none;
+  padding: 30px;
+}
+
+.vid-all {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.blok-vids {
+  width: 300px;
+  height: 200px;
+  background: rgba(242, 139, 99, 1);
+  border-radius: 24px;
+  border: none;
+  padding: 30px;
+}
+
+.text-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.old {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.vet {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-weight: 300;
+  text-align: right;
+  color: rgba(255, 255, 255, 1);
+}
+
+.vrta {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.olda {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(33, 33, 33, 1);
+}
+
+.veta {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-weight: 300;
+  text-align: right;
+  color: rgba(33, 33, 33, 1);
+}
+
+.vrtae {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: rgba(33, 33, 33, 1);
+}
+
+.footer {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  background: rgba(232, 232, 232, 1);
+}
+
+.text-fod {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-pargd {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 11.6px;
+  color: rgb(5, 5, 5);
+}
+
+
+.pase {
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fod {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nore {
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: center;
+  color: rgb(5, 5, 5);
+}
+
+.tell {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fon {
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: rgba(33, 33, 33, 1);
 }
