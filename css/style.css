@@ -407,14 +407,24 @@ a {
   }
 }
 
-.one-corb:hover {
-  transform: scale(1.1);
-  /* Збільшуємо блок до 110% його розміру */
+@media screen and (max-width: 480px) {
+  .one-corb:hover {
+    transform: scale(1.1);
+    /* Збільшуємо блок до 110% його розміру */
+  }
 }
+
+@media screen and (min-width: 1024px) {
+  .one-corb:hover {
+    transform: scale(1.1);
+    /* Збільшуємо блок до 110% його розміру */
+  }
+}
+
 
 .one-corb10 {
   width: 290px;
-  height: 260px;
+  height: 267px;
   background: rgba(41, 41, 41, 1);
   padding: 15px;
   border-radius: 24px;
@@ -434,9 +444,18 @@ a {
   }
 }
 
-.one-corb10:hover {
-  transform: scale(1.1);
-  /* Збільшуємо блок до 110% його розміру */
+@media screen and (max-width: 480px) {
+  .one-corb10:hover {
+    transform: scale(1.1);
+    /* Збільшуємо блок до 110% його розміру */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .one-corb10:hover {
+    transform: scale(1.1);
+    /* Збільшуємо блок до 110% його розміру */
+  }
 }
 
 .one-corb1 {
@@ -461,9 +480,18 @@ a {
   }
 }
 
-.one-corb1:hover {
-  transform: scale(1.1);
-  /* Збільшуємо блок до 110% його розміру */
+@media screen and (max-width: 480px) {
+  .one-corb1:hover {
+    transform: scale(1.1);
+    /* Збільшуємо блок до 110% його розміру */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .one-corb1:hover {
+    transform: scale(1.1);
+    /* Збільшуємо блок до 110% його розміру */
+  }
 }
 
 .one-corb11 {
@@ -488,9 +516,18 @@ a {
   }
 }
 
-.one-corb11:hover {
-  transform: scale(1.1);
-  /* Збільшуємо блок до 110% його розміру */
+@media screen and (max-width: 480px) {
+  .one-corb11:hover {
+    transform: scale(1.1);
+    /* Збільшуємо блок до 110% його розміру */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .one-corb11:hover {
+    transform: scale(1.1);
+    /* Збільшуємо блок до 110% його розміру */
+  }
 }
 
 .alles-block {
@@ -1209,7 +1246,7 @@ a {
 @media screen and (max-width: 480px) {
   .block-abod {
     width: 290px;
-    height: 500px;
+    height: 530px;
     background: rgba(41, 41, 41, 1);
     border-radius: 24px;
     border: none;
